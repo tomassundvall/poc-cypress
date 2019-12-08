@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Cypress POC",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon ./src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomassundvall/poc-cypress.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Tomas Sundvall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomassundvall/poc-cypress/issues"
+  },
+  "homepage": "https://github.com/tomassundvall/poc-cypress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+
+  web:
+    image: node:12.13.1-slim
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    ports:
+      - 10500:5000
+    command: npm run-script nodemon
+
+  cmd:
+    image: node:12.13.1-slim
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    command: /bin/bash
