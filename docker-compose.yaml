@@ -17,3 +17,8 @@ services:
       - ./:/home/node/app
     working_dir: /home/node/app
     command: /bin/bash
+
+  sandbox:
+    image: node:12.13.1-slim
+    working_dir: /home/node/app
+    command: /bin/bash
